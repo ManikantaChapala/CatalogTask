@@ -5,7 +5,7 @@ import java.util.*;
 public class PolySolver {
 
     public static void main(String[] args) throws Exception {
-        String data = readFile("input.json").replaceAll("\\s+", "");
+        String data = readFile("input2.json").replaceAll("\\s+", "");
         int n = Integer.parseInt(find(data, "\"n\":", ","));
         int k = Integer.parseInt(find(data, "\"k\":", "}"));
 
@@ -63,3 +63,4 @@ public class PolySolver {
         return sum;
     }
 }
+
